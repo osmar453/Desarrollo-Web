@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Yetlalia </title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fuentes de Yetlalia: Cormorant Garamond y Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- CABECERA / PERFIL -->
+    <header class="biolink-header" role="banner">
+        <div class="biolink-container">
+            <!-- Indicador de disponibilidad con estilo Yetlalia -->
+            <div class="availability-badge" role="status" aria-label="Estado actual: Disponible para proyectos">
+                <span class="status-dot" aria-hidden="true"></span>
+                <span>Disponible para proyectos</span>
+            </div>
+
+            <!-- Avatar y Bio -->
+            <div class="profile-group">
+                <img src="images/logo-48.png" alt="Fotografía de perfil de Yetlalia" class="avatar-img">
+                <h1>Yetlalia</h1>
+                <p class="bio-text">
+                    <span>Componer, reparar, ordenar.</span> Diseños de identidad y sitios web a la medida, sin plantillas genéricas.
+                </p>
+            </div>
+
+            <!-- Redes Sociales Principales -->
+            <nav class="social-nav" aria-label="Redes sociales y enlaces principales">
+                <a href="https://github.com/osmar453" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Perfil de GitHub">GitHub</a>
+                <a href="https://linkedin.com/in/osmar-de-la-cruz-sánchez-74b242438" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Perfil de LinkedIn">LinkedIn</a>
+                <a href="https://wa.me/3313393437" class="social-btn" aria-label="Correo electrónico">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="biolink-main" role="main">
+        <div class="biolink-container">
+            
+            <!-- SECCIÓN 1: PROYECTOS DESTACADOS -->
+            <section class="projects-section" aria-labelledby="projects-heading">
+                <span class="section-tag">trabajos destacados</span>
+                <h2 id="projects-heading">Soluciones con oficio.</h2>
+                
+                <div class="projects-stack">
+                    <article class="project-card">
+                        <div class="project-info">
+                            <h3>Proyecto 01</h3>
+                            <p>Plataforma web responsiva optimizada para conversión y rendimiento riguroso.</p>
+                        </div>
+                        <a href="#" class="btn btn-primary" aria-label="Ver detalles del Proyecto 01">Ver Proyecto ↗</a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-info">
+                            <h3>Proyecto 02</h3>
+                            <p>Sistema a medida y arquitectura de marca implementada desde cero.</p>
+                        </div>
+                        <a href="#" class="btn btn-primary" aria-label="Ver detalles del Proyecto 02">Ver Proyecto ↗</a>
+                    </article>
+                </div>
+            </section>
+
+            <!-- SECCIÓN 2: GALERÍA VISUAL -->
+            <section class="gallery-section" aria-labelledby="gallery-heading">
+                <span class="section-tag">vistazo visual</span>
+                <h2 id="gallery-heading">Detalles que importan.</h2>
+                
+                <div class="gallery-grid" role="region" aria-label="Galería visual de proyectos">
+                    <div class="gallery-item">
+                        <img src="images/dash.png" alt="Captura de interfaz de trabajo Yetlalia" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/dash-2.png" alt="Segundo plano o mockup de interfaz Yetlalia" loading="lazy">
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="biolink-footer" role="contentinfo">
+        <div class="biolink-container">
+            <span class="footer-brand">Yetlalia</span>
+            <p class="footer-location">© 2026 Yetlalia. Hecho en Jalisco, México.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
